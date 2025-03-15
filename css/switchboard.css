@@ -1,0 +1,21 @@
+.switchboard {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    min-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.custom-control {
+    margin-right: 35px;
+}
+
+.item {
+    margin: 30px;
+}
+

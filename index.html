@@ -3,17 +3,84 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/screen.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/switchboard.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="btn btn-sm btn-danger" type="button">Lock the Dinos</button>
     </nav>
-    <script src="index.js"></script>
+    <div class="card">
+      <div class="header">
+        <h1>Settings</h1>
+      </div>
+    
+      <p class="message">
+        “your scientists were so preoccupied with whether or not they could, they didn't stop to think if they should.”
+      </p>
+      <p class="message">
+        ― Dr. Ian Malcolm
+      </p>
+    </div>
+    <div class="card">
+      <div class="switchboard">
+        <div class="row">
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio1">Triassic</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio2">Jurassic</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio3">Cretaceous</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio1">Carnivore</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio2">Herbivore</label>
+          </div>
+          <div class="custom-control custom-radio">
+            <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+            <label class="custom-control-label" for="customRadio3">Omnivore</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item">
+            <p>Claws</p>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider"></span>
+            </label>
+          </div>
+  
+          <div class="item">
+            <p>Teeth</p>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider"></span>
+            </label>
+          </div>
+          <div class="item">
+            <p>Spines</p>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
